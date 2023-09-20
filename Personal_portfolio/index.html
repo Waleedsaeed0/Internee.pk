@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class= "hero">
+        <nav>
+            <img src="Logo_2.png" class="logo" width="14%" >
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="https://www.linkedin.com/in/waleedsaeed0/">ABOUT</a></li>
+                <li><a href="https://www.linkedin.com/in/waleedsaeed0/">WORKS</a></li>
+                <li><a href="https://www.linkedin.com/in/waleedsaeed0/">PROJECTS</a></li>
+                <li class="btn"><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="detail">
+            <h1>I'm <span class="name">Waleed Saeed</span></h1>
+            <p>This is my official portfolio website to shows 
+                <br> all Details and work experience of my: <br>
+                <!-- Element to contain animated typing -->
+                <span id="element"></span></p>
+            <div  class="social">
+                <a href="https://www.facebook.com/profile.php?id=100005016453206"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/waleed_saeed_526/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/waleedsaeed0/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a id="cv" href="#" >DOWNLOAD CV</a>
+        </div>
+        <div class="images">
+            <img src="shape_1.png" class="shape">
+            <img src="person_2.png" class="person">
+        </div>
+    </div>
+      
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+        strings: ['Web Development.', 'Electrical Engineering.','Artificial Intelligence.'],
+        typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>

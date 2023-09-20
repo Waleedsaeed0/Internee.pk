@@ -1,0 +1,60 @@
+/* Theme 1 Styles */
+.calculator {
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(180deg, white, #753dcf);
+}
+
+input {
+    /* Theme 1 input styles */
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: #fffffffe;
+    border-radius: 10px;
+    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: #000;
+}
+
+/* Add more Theme 1 styles here */
+
+button {
+    /* Theme 1 button styles */
+    background-color:rgba(128,128,128, 0.3);
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.equalBtn {
+    /* Theme 1 equal button styles */
+    background-color: #3f1386;
+    color: white;
+}
+
+.operator {
+    /* Theme 1 operator button styles */
+    background-color: #3f1386;
+    color: white;
+}
